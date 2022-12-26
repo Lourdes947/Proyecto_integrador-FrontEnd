@@ -1,0 +1,17 @@
+<div>
+    <div class="container">
+        <div class="logo">
+            <img src="https://cdn.icon-icons.com/icons2/2367/PNG/512/terminal_shell_icon_143501.png" id="logoAP">
+        </div>
+        <div class="redes">
+            <div>
+                <a href=""><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" id="instagram"></a>
+                <a href=""><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" id="facebook"></a>
+                <a href=""><img src="https://cdn-icons-png.flaticon.com/512/107/107195.png" id="twitter"></a>
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" id="github"></a>
+                <button type="button" class="btn btn-outline-dark" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+                <button type="button" class="btn btn-outline-dark" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+            </div>
+        </div>
+    </div>
+</div>
