@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-Browser/animations';
 import { HeaderComponent } from './components/header/header.component';
 import { LogoApComponent } from './components/logo-ap/logo-ap.component';
 import { SocialComponent } from './components/social/social.component';
@@ -22,31 +23,35 @@ import { NewExperienciaComponent } from './components/experiencia/new-experienci
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia/edit-experiencia.component';
 import { NeweducacionComponent } from './components/education/neweducacion/neweducacion.component';
 import { EditeducacionComponent } from './components/education/editeducacion/editeducacion.component';
+import { EditSkillComponent } from './components/hardandskills/edit-skill/edit-skill.component';
+import { NewSkillComponent } from './components/hardandskills/new-skill/new-skill.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     LogoApComponent,
-    SocialComponent,
     BannerComponent,
     AcercaDeComponent,
     ExperienciaComponent,
     EducationComponent,
-    ProyectosComponent,
     HardandskillsComponent,
+    ProyectosComponent,
     FooterComponent,
     HomeComponent,
     LoginComponent,
     NewExperienciaComponent,
     EditExperienciaComponent,
-    FormsModule,
     NeweducacionComponent,
     EditeducacionComponent,
-  ],
+    EditSkillComponent,
+    NewSkillComponent,
+    SocialComponent,
+ ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
     FormsModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule 

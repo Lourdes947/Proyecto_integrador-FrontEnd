@@ -31,7 +31,7 @@ export class EducationComponent implements OnInit {
     )
   }
 
-  borrar(id?: number){
+  delete(id?: number){
     if(id != undefined){
       this.educacionS.delete(id).subscribe(
         data => {
