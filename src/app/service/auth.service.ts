@@ -9,7 +9,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'proyectointegrador-backend-production.up.railway.app/auth/';
+  authURL = 'https://portfolio-lacuadra-lourdes947.koyeb.app/auth/';
 
   constructor(private httpClient: HttpClient) { }
 

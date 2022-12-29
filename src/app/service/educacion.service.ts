@@ -7,7 +7,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-  URL = 'proyectointegrador-backend-production.up.railway.app/educacion/';
+  URL = 'https://portfolio-lacuadra-lourdes947.koyeb.app/educacion/';
 
 
   constructor(private httpClient : HttpClient) { }

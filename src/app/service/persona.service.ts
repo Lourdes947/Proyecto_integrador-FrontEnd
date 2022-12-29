@@ -7,7 +7,7 @@ import { persona } from '../model/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-  URL = 'proyectointegrador-backend-production.up.railway.app/personas/'
+  URL = 'https://portfolio-lacuadra-lourdes947.koyeb.app/persona/'
   constructor(private http: HttpClient) { }
 
   public getPersona(): Observable<persona>{

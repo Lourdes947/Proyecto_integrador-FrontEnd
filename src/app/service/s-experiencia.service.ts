@@ -7,7 +7,7 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  expURL = 'proyectointegrador-backend-production.up.railway.app/explab/'
+  expURL = 'https://portfolio-lacuadra-lourdes947.koyeb.app/experiencia/'
 
 
   constructor(private httpClient: HttpClient) { }
